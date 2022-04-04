@@ -26,27 +26,28 @@
 
             <div class="primeirotitulo"> <h2>Primeiro, seu prato</h2> </div>
             <div class="primeiroscroll">
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarPrato(this)">
+                    <img src="imagens/frango_yin_yang 1.png" alt="">
+                    <h3>Frango Yin Yang</h3>
+                    <h4>Um pouco de batata, um pouco de salada</h4>
+                    <p>R$ 14,90</p>
+                </div>
+
+                <div class="item" onclick="clicarPrato(this)">
                     <img src="imagens/frango_yin_yang 1.png" alt="">
                     <h3>Frango Yin Yang</h3>
                     <h4>Um pouco de batata, um pouco de salada</h4>
                     <p>R$ 14,90</p>
                     
                 </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarPrato(this)">
                     <img src="imagens/frango_yin_yang 1.png" alt="">
                     <h3>Frango Yin Yang</h3>
                     <h4>Um pouco de batata, um pouco de salada</h4>
                     <p>R$ 14,90</p>
                     
                 </div>
-                <div class="caixadeprato">
-                    <img src="imagens/frango_yin_yang 1.png" alt="">
-                    <h3>Frango Yin Yang</h3>
-                    <h4>Um pouco de batata, um pouco de salada</h4>
-                    <p>R$ 14,90</p>                    
-                </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarPrato(this)">
                     <img src="imagens/frango_yin_yang 1.png" alt="">
                     <h3>Frango Yin Yang</h3>
                     <h4>Um pouco de batata, um pouco de salada</h4>
@@ -59,25 +60,25 @@
 
             <div class="segundotitulo"> <h2>Agora, sua bebida</h2></div>
             <div class="segundoscroll">
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarBebida(this)">
                     <img src="imagens/coquinha_gelada 1.png" alt="">
                     <h3>Coquinha gelada</h3>
                     <h4>Lata 350ml</h4>
                     <p>R$ 4,90</p>
                 </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarBebida(this)">
                     <img src="imagens/coquinha_gelada 1.png" alt="">
                     <h3>Coquinha gelada</h3>
                     <h4>Lata 350ml</h4>
                     <p>R$ 4,90</p>
                 </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarBebida(this)">
                     <img src="imagens/coquinha_gelada 1.png" alt="">
                     <h3>Coquinha gelada</h3>
                     <h4>Lata 350ml</h4>
                     <p>R$ 4,90</p>
                 </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarBebida(this)">
                     <img src="imagens/coquinha_gelada 1.png" alt="">
                     <h3>Coquinha gelada</h3>
                     <h4>Lata 350ml</h4>
@@ -90,25 +91,25 @@
             <div class="terceirotitulo"> <h2>Por fim, sua sobremesa</h2></div>
             <div class="terceiroscroll">
 
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarSobremesa(this)">
                     <img src="imagens/pudim 1.png" alt="">
                     <h3>Pudim</h3>
                     <h4>Apenas pudim</h4>
                     <p>R$ 7,90</p>
                 </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarSobremesa(this)">
                     <img src="imagens/pudim 1.png" alt="">
                     <h3>Pudim</h3>
                     <h4>Apenas pudim</h4>
                     <p>R$ 7,90</p>
                 </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarSobremesa(this)">
                     <img src="imagens/pudim 1.png" alt="">
                     <h3>Pudim</h3>
                     <h4>Apenas pudim</h4>
                     <p>R$ 7,90</p>
                 </div>
-                <div class="caixadeprato">
+                <div class="item" onclick="clicarSobremesa(this)">
                     <img src="imagens/pudim 1.png" alt="">
                     <h3>Pudim</h3>
                     <h4>Apenas pudim</h4>
@@ -120,12 +121,11 @@
 
         </div>
         <div class="baixo">
-            <div class="bordaredonda">
-                <div class="txtpedido">
-                    <h5>Selecione os 3 itens para fechar o pedido</h5>
-                </div>
-                
-            </div>
+
+            <div class="bottom">
+                <div class="botao-itens">Selecione os 3 itens <span>para fechar o pedido</span></div>
+                <div class="botao-fechar esconder-botao" onclick="fecharPedido()">Fechar pedido</div>
+            </div>            
         </div>
 
 
